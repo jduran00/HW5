@@ -20,6 +20,20 @@ I used a random forest classifier from sklearn.ensemble, due to my previous expe
 
 Random Forest builds many decision trees trained using random subsets of data provided, then combines and averaging the results for the prediction. This is suited to a project like this with binary results.
 
-## Ressults and Anlysis 
+## Results and Analysis 
+I have pasted a screenshot of my submission below. 
+<img width="950" alt="kagglesubmission" src="https://github.com/user-attachments/assets/8a51a364-9302-4329-864d-4919969dcb63" />
+
+This could be way higher as show in other submissions. I go over ideas on how to fix this below. 
+
+Another way of checking my results I added a submission_analysis.py file that would create side by side charts and comparasions of the train_model.csv and my submissions.csv . I also tested my model by running it on the train files and then testing the accuracy on the ground truth values. The result was about 72%. I know this could be better and have a couple ideas as to how. 
+
+
+My number one issue is that I only used 1000 samples to create the model instead of the 220026 provided. I know this was counterintutive and no the project but everytime more than 3000 samples was used every app and tab open on my laptop would turn black and shutdown, including the code editor I was using. Ideally, I would find a solution but I wished to submit what I currentlly had done within the due date. Another issue I ran into was a memory error, I did not have enough spcae on my laptop. I implmented batch testing and kept it in groups of 1000 and then I added those to a list of predictions before moving on to the next step. This prevented the error. 
+
+Outside of those intial issues, another way I could improve my results is to use a more accurate model. The random forest classifier works but spesifically with a large data set like this one, and after looking at top preforming submissions on kaggle I think a neural network could improve the results. 
+
 
 ## Conclusion 
+
+In conclusion, my approach taught me a lot and allowed me to learn common issues with classifying a large dataset. I see ways I could make this better and hope to spend more time learning from other approches on Kaggle and by contiuing to learn about AI and ML. 
