@@ -11,8 +11,8 @@ To note/cite, this [this](https://stackoverflow.com/questions/7569553/working-wi
 
 Since I have previously taken a course  that primarily used panadas, that is what I decided to use for this assignment. Using pandas and seaborn it was possible to quickly anazlize the train_labels.csv, I have included a pie chart that demonstrates the split between files with cancer and without cancer in the training dataset. The files provided by kaggle needed little cleaning but to be careful I added a line that would drop rows with missing parts. The provided instructions in Kaggle tells us that there are no duplicates so I did not address them. My plan of anaylsis is use sklearn to train a model and then use that model on the test folder and save the results in a .csv file.
 
+![Figure_1_kaggle](https://github.com/user-attachments/assets/b7518f4f-0ded-4f5a-bdf1-a341490ff986)
 
-![Figure_1_kaggle.png](attachment:3f15bf35-9ed9-44b3-8532-6c829e5b1346.png)
 
 ## Model Architecture
 
