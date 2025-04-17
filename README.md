@@ -26,7 +26,7 @@ I have pasted a screenshot of my submission below.
 
 This could be way higher as show in other submissions. I go over ideas on how to fix this below. 
 
-Another way of checking my results I added a submission_analysis.py file that would create side by side charts and comparasions of the train_model.csv and my submissions.csv . I also tested my model by running it on the train files and then testing the accuracy on the ground truth values. The result was about 72%. I know this could be better and have a couple ideas as to how. 
+I also tested my model by running it on the train files and then testing the accuracy on the ground truth values. The result was about 72%. I know this could be better and have a couple ideas as to how. 
 
 
 My number one issue is that I only used 1000 samples to create the model instead of the 220026 provided. I know this was counterintutive and no the project but everytime more than 3000 samples was used every app and tab open on my laptop would turn black and shutdown, including the code editor I was using. Ideally, I would find a solution but I wished to submit what I currentlly had done within the due date. Another issue I ran into was a memory error, I did not have enough spcae on my laptop. I implmented batch testing and kept it in groups of 1000 and then I added those to a list of predictions before moving on to the next step. This prevented the error. 
